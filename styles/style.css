@@ -1,0 +1,76 @@
+.about, .pricing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-content {
+    padding-top: 108px;
+    padding-bottom: 107px;
+    width: 400px;
+    height: 360px;
+}
+
+.card-title {
+    color: #234CAD;
+    font-family: 'Nunito';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px; /* 116.667% */
+}
+
+.card-text {
+    color: #234CAD;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+
+.getApp {
+    color: #234CAD;
+    background-color: transparent;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 163.636% */
+    border-radius: 32.5px;
+    border: 2px solid #234CAD;
+    display: flex;
+    width: 200px;
+    height: 65px;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.4s;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.getApp:hover {
+    background-color: #F2F6FF;
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.card-image {
+    border-radius: 60px;
+    background: #F2F6FF;
+    width: 575px;
+    height: 575px;
+    flex-shrink: 0;
+}
+
+.card-ui-1 {
+    height: 150px;
+}
+
+.card-ui-2 {
+    height: 185px;
+}
+
+.row-cols-2 > * {
+    width: 40%;
+}
