@@ -1,32 +1,87 @@
+@media (max-width: 600px) {
+
+    .card-image {
+        border-radius: 60px;
+        background: #F2F6FF;
+        width: 345px;
+        height: 345px;
+        flex-shrink: 0;
+        margin: auto;
+    }
+
+    .card-ui-1 {
+        height: 91px;
+    }
+
+    .card-ui-2 {
+        height: 113px;
+    }
+
+    .card-svg-1 {
+        width: 316px;
+    }
+    .card-svg-2 {
+        width: 197.5px;
+    }
+
+    .card-pricing {
+        width: 345px;
+    }
+}
+
+@media (min-width: 601px) {
+    .card-image {
+        border-radius: 60px;
+        background: #F2F6FF;
+        width: 575px;
+        height: 575px;
+        flex-shrink: 0;
+        margin: auto;
+    }
+
+    .card-ui-1 {
+        height: 150px;
+    }
+    
+    .card-ui-2 {
+        height: 185px;
+    }
+
+    .card-pricing {
+        width: 380px;
+    }
+}
+
 .about, .pricing {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 150px;
 }
 
 .card-content {
-    padding-top: 108px;
-    padding-bottom: 107px;
     width: 400px;
-    height: 360px;
+    margin: auto;
 }
 
-.card-title {
+.title {
     color: #234CAD;
     font-family: 'Nunito';
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
     line-height: 56px; /* 116.667% */
+    padding-bottom: 25px;
 }
 
-.card-text {
+.text {
     color: #234CAD;
     font-family: Nunito;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 26px; /* 162.5% */
+    padding-bottom: 50px;
 }
 
 .getApp {
@@ -55,22 +110,103 @@
     box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
 }
 
-.card-image {
+/* .card-image {
     border-radius: 60px;
     background: #F2F6FF;
     width: 575px;
     height: 575px;
     flex-shrink: 0;
-}
+    margin: auto;
+} */
 
-.card-ui-1 {
-    height: 150px;
-}
 
-.card-ui-2 {
-    height: 185px;
-}
 
 .row-cols-2 > * {
     width: 40%;
+}
+
+.pricing-section {
+    height: 133px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 75px;
+}
+
+.pricing-text {
+    width: 365px;
+    margin: auto;
+}
+
+.pricing-table {
+    display: flex;
+    justify-content: center;
+}
+
+.card-title {
+    color: #234CAD;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 160% */
+    padding-top: 50px;
+}
+
+.card-price {
+    color: #234CAD;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; /* 85.714% */
+    padding-top: 35px;
+}
+
+.card-text {
+    color: #234CAD;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+    padding-top: 15px;
+}
+
+.card-pricing {
+    margin: auto;
+    border-radius: 60px;
+    background: #F2F6FF;
+    border-style: none;
+    height: 380px;
+    flex-shrink: 0;
+    transition: all 0.1s ease;
+}
+
+.button-price {
+    border-radius: 37.5px;
+    background: #FFF;
+    width: 274px;
+    height: 75px;
+    flex-shrink: 0;
+    color: #234CAD;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 160% */
+    border-style: none;
+}
+
+.card-pricing:hover {
+    border: 3px solid #234CAD; 
+    background: transparent;
+}
+
+.card-pricing:hover .button-price {
+    border-radius: 37.5px;
+    border: 3px solid #234CAD;
 }
