@@ -1,3 +1,41 @@
+.title {
+    color: #234CAD;
+    font-family: 'Nunito';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px; /* 116.667% */
+    padding-bottom: 25px;
+}
+
+.text {
+    color: #234CAD;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    padding-bottom: 50px;
+}
+
+.footer {
+    color: #234CAD;
+    font-family: Nunito;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 49px; /* 163.333% */
+}
+
+.footer-text {
+    color: #234CAD;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px; /* 161.111% */
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -5,7 +43,17 @@ body {
   }
 
   .container{
-    background-color: powderblue;
+    border-radius: 60px;
+    background: #F2F6FF;
+    height: 383px;
+  }
+
+  .newsletter-title{
+    padding-top: 75px;
+  }
+
+  .newsletter-text{
+    padding-top: 25px;
   }
 
   .newsletter-section {
@@ -28,13 +76,6 @@ body {
 
   .input-button{
     margin-left: -55px;
-  }
-
-
-  .footer {
-    background-color: #f8f9fa;
-    padding: 30px;
-    color: #333;
   }
 
 
