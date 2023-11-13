@@ -210,3 +210,32 @@
     border-radius: 37.5px;
     border: 3px solid #234CAD;
 }
+
+.container-feature1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.card-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-image .col-md-12 {
+    padding: 0;
+}
+
+.card-svg-f1 {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.col-md-6 {
+    display: flex;
+    align-items: center;
+}
