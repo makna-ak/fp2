@@ -52,7 +52,7 @@
     }
 }
 
-.about, .pricing, .feature-1 {
+.about, .pricing, .feature-2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -200,13 +200,64 @@
     border: 3px solid #234CAD;
 }
 
-.feature-1-section {
+.feature-2-section {
     height: 133px;  
-    flex-shrink: 0;
+    width: 100%;
+    text-align: center;
 }
 
-.feature-1-image {
+.feature-2-image {
+    width: 1240px; 
     height: 625px; 
     border-radius: 60px;
     background: #F2F6FF; 
+    position: relative;
+}
+
+.feature-2-ui-1 {
+    position: absolute;
+    bottom: 106px;
+    left: 292px;
+}
+
+.feature-2-ui-2 {
+    position: absolute;
+    bottom: 216.2px;
+    left: 653px;
+}
+
+.feature-2-ui-3 {
+    position: absolute;
+    bottom: 90px;
+    left: -46px;
+}
+
+.feature-2-ui-4 {
+    position: absolute;
+    bottom: 355px;
+    left: 448px;
+}
+
+.feature-2-ui-5 {
+    position: absolute;
+    bottom: 16px;
+    left: 342px;
+}
+
+.feature-2-ui-6 {
+    position: absolute;
+    bottom: -180px;
+    left: 342px;
+}
+
+.feature-2-ui-7 {
+    position: absolute;
+    bottom: -22px;
+    left: 229px;
+}
+
+.feature-2-ui-8 {
+    position: absolute;
+    bottom: 347px;
+    left: 341.6px;
 }
