@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 *,
 *::before,
 *::after {
@@ -304,12 +303,10 @@
     color: #234CAD;
     font-family: 'Nunito';
     font-size: 3em;
-=======
 .title {
     color: #234CAD;
     font-family: 'Nunito';
     font-size: 48px;
->>>>>>> tsaniyaptran/newsletter-footer
     font-style: normal;
     font-weight: 700;
     line-height: 56px; /* 116.667% */
