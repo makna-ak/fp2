@@ -457,7 +457,6 @@ body {
   .container-feature{
     height: auto;
     display: flex;
-    /* width: 80%; */
     width: 1299px;
     height: 575px;
     margin-bottom: 12%;
@@ -771,3 +770,34 @@ body {
     background-color: transparent;
     margin: 0 140px 107px 100px;
   }
+
+  @media (max-width: 1200px) {
+    .container-feature {
+      border-radius: 60px;
+      background: #F2F6FF;
+      width: 100%;
+      height: auto;
+      margin: auto;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .pf-card1,
+    .pf-card2,
+    .pf-card3 {
+      width: 80%;
+      margin: 25px auto;
+      text-align: center;
+      border-radius: 20px;
+    }
+  
+    .main-text,
+    .text-body {
+      width: 80%;
+      margin: 20px auto;
+      text-align: center;
+      padding: 15px;
+      border-radius: 15px;
+    }
+  }
+  
