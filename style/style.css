@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.jumbotron {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    width: 90%;
+    max-width: 1240px;
+    height: 575px;
+    flex-shrink: 0;
+    background: #F2F6FF;
+    border-radius: 60px;
+    margin: 0 auto;
+}
+
+.grid-container {
+    height: auto;
+    display: flex;
+    width: 90%;
+    max-width: 1299px;
+    height: 575px;
+    margin-bottom: 12%;
+    padding: 0 20px;
+    flex-direction: row;
+}
+
+.text-content {
+    text-align: left;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+}
+
+.text-content h1 {
+    color: #234CAD;
+    font-family: 'Nunito', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    width: 375px;
+    margin-bottom: 20px;
+}
+
+.text-content p {
+    color: #234CAD;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.text-content .getApp {
+    color: #234CAD;
+    background-color: transparent;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    border-radius: 32.5px;
+    border: 2px solid #234CAD;
+    display: flex;
+    width: 200px;
+    height: 65px;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.4s;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.text-content .getApp:hover {
+    background-color: #F2F6FF;
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+.image-content img {
+    width: 130%; /* Adjusted to extend slightly beyond the background */
+    height: auto;
+    max-width: none;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    .jumbotron {
+        border-radius: 0;
+    }
+
+    .grid-container {
+        flex-direction: column;
+    }
+
+    .text-content {
+        text-align: left;
+    }
+}
+
+.navbar-brand img {
+    width: 30px;
+    height: 24px;
+}
+
+.btn {
+    display: flex;
+}
+
+.btn button {
+    border-radius: 25px;
+    border: 2px solid #234CAD;
+    margin-right: 10px;
+    color: #234CAD;
+}
