@@ -303,6 +303,8 @@
     color: #234CAD;
     font-family: 'Nunito';
     font-size: 3em;
+}
+
 .title {
     color: #234CAD;
     font-family: 'Nunito';
@@ -774,6 +776,8 @@ body {
     color: var(--blue-color);
     background-color: transparent;
     margin: 0 140px 107px 100px;
+  }
+  
 .footer {
     color: #234CAD;
     font-family: Nunito;
@@ -798,7 +802,7 @@ body {
     box-sizing: border-box;
   }
 
-  .container{
+  .container-footer{
     border-radius: 60px;
     background: #F2F6FF;
     height: 383px;
