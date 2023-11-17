@@ -11,10 +11,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg bg-light">
+  <nav class="navbar navbar-expand-lg">
     <div class="container">
       <a class="navbar-brand" href="#">
-        <img src="assets/navbar-and-jumbotron/gambar1.png" alt="gambar1" width="30" height="24" />
+        <img src="assets/navbar-and-jumbotron/Menu Button.svg" alt="gambar1"/>
       </a>
         <ul class="nav justify-content-center">
           <li class="nav-item">
@@ -30,9 +30,9 @@
             <a class="nav-link" href="#">Contact</a>
           </li>
         </ul>
-        <div class="btn">
-          <button class="btn btn-outline-success" type="submit">Login</button>
-          <button class="btn btn-outline-success" type="submit">Sign Up</button>
+        <div>
+          <button class="btn-login" type="submit">Login</button>
+          <button class="btn-signup" type="submit" style="background: #F2F6FF; ">Sign Up</button>
         </div>
     </div>
   </nav>
@@ -41,82 +41,134 @@
         <div class="text-content">
           <h1>Business Communications Reinvented</h1>
           <p>Start communicating with your business team more efficiently with our app.</p>
-          <div class="getApp">
-            <a href="#">Get the app</a>
-          </div>
+          <button class="getApp">Get the app</button>
         </div>
         <div class="image-content">
           <img src="assets/navbar-and-jumbotron/UI Elements.png" alt="Elements">
         </div>
       </div>
   </div>
-    <div class="container-feature">
-        <div class="pf-content">
-        <div class="pf-card">
-            <div class="pf-card1">
-            <div class="pf-card-1-content">
-                <div class="nick-1">
-                <div class="name-pf-card c-1">
-                    <h1>AJ<span class="notif-2">2</span></h1>
+  <div class="container features">
+    <div class="d-flex flex-sm-row flex-column" style="width: 95%;">
+      <div class="p-2 w-100">
+        <div class="d-flex align-items-center">
+          <div class="flex-shrink-0">
+            <img src="assets/feature1/Icon.svg" alt="">
+          </div>
+          <div class="flex-grow-1 ms-3">
+            <h3 class="feature-title">Cloud based</h3>
+            <p class="feature-description">All your messages are always backed up.</p>
+          </div>
+        </div>
+      </div>
+      <div class="p-2 w-100">
+        <div class="d-flex align-items-center">
+          <div class="flex-shrink-0">
+            <img src="assets/feature1/Icon_1.svg" alt="">
+          </div>
+          <div class="flex-grow-1 ms-3">
+            <h3 class="feature-title">Secured</h3>
+            <p class="feature-description">All your messages are stored very securely.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="row row-cols-1 row-cols-lg-2">
+      <div class="col">
+        <div class="d-flex align-items-center">
+          <div class="flex-shrink-0">
+            <img src="assets/feature1/Icon.svg" alt="">
+          </div>
+          <div class="flex-grow-1 ms-3">
+            <h3 class="feature-title">Cloud based</h3>
+            <p class="feature-description">All your messages are always backed up.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="d-flex align-items-center">
+          <div class="flex-shrink-0">
+            <img src="assets/feature1/Icon_1.svg" alt="">
+          </div>
+          <div class="flex-grow-1 ms-3">
+            <h3 class="feature-title">Secured</h3>
+            <p class="feature-description">All your messages are stored very securely.</p>
+          </div>
+        </div>
+      </div>
+    </div> -->
+  </div>
+    <div class="container container-feature">
+      <div class="row row-cols-1 row-cols-lg-2">
+        <div class="col">
+          <div class="pf-content">
+            <div class="pf-card">
+                <div class="pf-card1">
+                <div class="pf-card-1-content">
+                    <div class="nick-1">
+                    <div class="name-pf-card c-1">
+                        <h1>AJ<span class="notif-2">2</span></h1>
+                    </div>
+                    </div>
+                    <div class="content-text c-1 ct-1">
+                    <h1>Andrew Johnson</h1>
+                    <p>I have seen that you are availabl…</p>
+                    </div>
+                    <div class="pf-time c-1 t-1">
+                    <p>1.03 AM</p>
+                    </div>
                 </div>
                 </div>
-                <div class="content-text c-1 ct-1">
-                <h1>Andrew Johnson</h1>
-                <p>I have seen that you are availabl…</p>
+                <div class="pf-card2">
+                <div class="pf-card-1-content">
+                    <div class="nick-2">
+                    <div class="name-pf-card c-2">
+                        <h1>DL<span class="notif-2">1</span></h1>
+                    </div>
+                    </div>
+                    <div class="content-text c-2 ct-2">
+                    <h1>Daniel Luke</h1>
+                    <p>Would you like to have a meetin…</p>
+                    </div>
+                    <div class="pf-time c-2 t-2">
+                    <p>5:27 AM</p>
+                    </div>
                 </div>
-                <div class="pf-time c-1 t-1">
-                <p>1.03 AM</p>
+                </div>
+                <div class="pf-card3">
+                <div class="pf-card-1-content">
+                    <div class="nick-3">
+                    <div class="name-pf-card c-3">
+                        <h1>MC<span class="notif-3">4</span></h1>
+                    </div>
+                    </div>
+                    <div class="content-text c-3 ct-3">
+                    <h1>Mark Clarke</h1>
+                    <p>This was such a busy week. I can…</p>
+                    </div>
+                    <div class="pf-time c-3 t-3">
+                    <p>2:08 AM</p>
+                    </div>
+                </div>
                 </div>
             </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="pf-text">
+            <div class="main-text">
+                <h1>Use our app to send messages to your team</h1>
             </div>
-            <div class="pf-card2">
-            <div class="pf-card-1-content">
-                <div class="nick-2">
-                <div class="name-pf-card c-2">
-                    <h1>DL<span class="notif-2">1</span></h1>
-                </div>
-                </div>
-                <div class="content-text c-2 ct-2">
-                <h1>Daniel Luke</h1>
-                <p>Would you like to have a meetin…</p>
-                </div>
-                <div class="pf-time c-2 t-2">
-                <p>5:27 AM</p>
-                </div>
+            <div class="text-body">
+                <p>
+                We offer really easy communications for all businesses from small
+                to large.
+                </p>
             </div>
-            </div>
-            <div class="pf-card3">
-            <div class="pf-card-1-content">
-                <div class="nick-3">
-                <div class="name-pf-card c-3">
-                    <h1>MC<span class="notif-3">4</span></h1>
-                </div>
-                </div>
-                <div class="content-text c-3 ct-3">
-                <h1>Mark Clarke</h1>
-                <p>This was such a busy week. I can…</p>
-                </div>
-                <div class="pf-time c-3 t-3">
-                <p>2:08 AM</p>
-                </div>
-            </div>
-            </div>
+            <button class="getApp">Get the app</button>
+          </div>
         </div>
-        </div>
-        <div class="pf-text">
-        <div class="main-text">
-            <h1>Use our app to send messages to your team</h1>
-        </div>
-        <div class="text-body">
-            <p>
-            We offer really easy communications for all businesses from small
-            to large.
-            </p>
-        </div>
-        <div class="get-app-bttn">
-            <button>Get the app</button>
-        </div>
-        </div>
+      </div>
     </div>
     <div class="container feature-2">
         <div class="row">

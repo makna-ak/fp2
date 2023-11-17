@@ -16,6 +16,10 @@
     --bg-white: #FFFFFF;
 }
 
+* {
+  font-family: Nunito;
+}
+
 @media (max-width: 600px) {
 
     .card-image {
@@ -287,7 +291,7 @@
 
 }
 
-.about, .pricing, .feature-2 {
+.about, .pricing, .feature-2, .container-feature {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -458,16 +462,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;  
-  }
-  
-  .container-feature{
-    height: auto;
-    display: flex;
-    width: 1299px;
-    height: 575px;
-    margin-bottom: 12%;
-    padding: 0 100px;
-    flex-direction: row;  
   }
   
   .pf-content{
@@ -778,15 +772,6 @@ body {
   }
 
   @media (max-width: 1200px) {
-    .container-feature {
-      border-radius: 60px;
-      background: #F2F6FF;
-      width: 100%;
-      height: auto;
-      margin: auto;
-      flex-direction: column;
-      align-items: center;
-    }
   
     .pf-card1,
     .pf-card2,
@@ -851,7 +836,6 @@ body {
 
   .newsletter-section {
     background-color: white;
-    padding: 80px 0;
     text-align: center;
   }
 
@@ -1094,18 +1078,69 @@ body {
     }
 }
 
-.navbar-brand img {
-    width: 30px;
-    height: 24px;
+.btn-login {
+  width: 135px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 25px;
+  border: 2px solid #234CAD;
+  color: #234CAD;
+  text-align: center;
+  font-family: Nunito;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 29px; /* 161.111% */
+  background: transparent;
 }
 
-.btn {
-    display: flex;
+.btn-signup {
+  width: 135px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 25px;
+  background: #F2F6FF;
+  color: #234CAD;
+  text-align: center;
+  font-family: Nunito;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 29px; /* 161.111% */
+  border-style: none;
 }
 
-.btn button {
-    border-radius: 25px;
-    border: 2px solid #234CAD;
-    margin-right: 10px;
-    color: #234CAD;
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  padding-top: 114px;
+  padding-bottom: 157px;
+}
+
+.features-gutter {
+  column-gap: 155px;
+}
+
+.feature-img {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.feature-text {
+  display: flex;
+  width: 402px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.navbar {
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
